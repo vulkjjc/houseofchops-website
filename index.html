@@ -1,0 +1,1435 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+    <title>Welcome | House chops an online catering company</title>
+    <link rel="icon" type="image/jpg" href="./img/img/IMG-20200925-WA0012.jpg" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="House of Chops is an online catering company currently servicing Warri and it's environs and we have a vision of expanding our operation to every part of Nigeria in no time. It was born out of passion to provide, quality,
+        affordable and mouth watering food to the good people of Warri and beyond. " />
+    <meta name="author" content="Oki John, Web Developer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/12d9de5a0c.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+
+
+<body data-spy="scroll" data-target=".myNavbar" data-offset="50" style="position: relative;">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!--navbar and bg-image section-->
+    <div id="header-bg-img-container">
+        <section id="header">
+            <div class="jumbotron jumbotron-fluid p-0 w-100" style="height: auto">
+                <div id="NavBar" class="topNav pl-3 py-1 shadow-lg">
+                    <a href="index.html"><img src="./img/img/IMG-20200925-WA0013.jpg" alt="logo" /></a>
+                    <nav class="myNavbar">
+                        <div class="mobile-relative">
+                            <ul class="navItems" id="navLinks">
+                                <li class="active"><a href="#home" class="scroll">HOME</a></li>
+                                <li><a href="#about" class="scroll">ABOUT</a></li>
+                                <li><a href="#services" class="scroll">SERVICES</a></li>
+                                <li><a href="#foodmenu" class="scroll">MENU</a></li>
+                                <li><a href="#contact-us" class="scroll">CONTACT-US</a></li>
+                            </ul>
+                        </div>
+                        <button id="hamburger-menu" class="navbar_toggler">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </button>
+                    </nav>
+                    <div class="cart-help pr-3">
+                        <div>
+                            <!--signIn_signUp container-->
+                            <div class="signin_signupcontainer">
+                                <span class="text-white">
+                                    <a href="signin.html" class="mt-0 pt-0" target="_blank">SignIn</a> </span>
+                                <span class="text-white mx-1">&#124;</span>
+                                <span>
+                                <a href="signup.html" style="font-weight: light;" target="_blank">SignUp</a>
+                                 </span>
+                            </div>
+                            <!--welcome container-->
+                            <div class="welcome_container">
+                                <a href="#" id="cart-container"> Cart <span id="cart-no">0</span> <i
+                                class="fas fa-shopping-cart mr-0" style="font-size: 17px;"></i></a>
+                                <span class="text-white name ml-2">Hi: John</span>
+                                <span class="text-white mx-1">&#124;</span>
+                                <span>
+                                <a href="#">Sign Out</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            
+                <div class="main_header_caption_food_wrapper" id="home">
+                    <div class="container w-100">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="header-content mx-auto d-block text-center">
+                                    <h1 class=" pt-5 ml2" id="gradient">                                        
+                                                HOUSE OF <span>CHOPS</span>                                              
+                                    </h1>
+                                    <p class="text-white">
+                                        House of Chops is an online catering company. We are specialists in Continental, African Dishes and everything in between.
+                                    </p>
+                                    <div class="form-container">
+                                        <form action="action_page.php" method="POST" style="width: 100%" autocomplete="off">
+                                            <input type="text" name="search" placeholder="Looking for something ?" />
+                                            <button type="button" class="btn" onclick="changeNavbar()">
+                      Search
+                    </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid w-100 pl-4">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12">
+                                <div class="jumbotron-food-splash">
+                                    <div class="food-content">
+                                        <div class="img-content">
+                                            <img src="./img/menu-food/rice/coconutrice.jpg" id="food-pix" alt="coconut rice" />
+                                            <span id="food-name">Coconut Rice</span>
+                                        </div>
+                                    </div>
+                                    <div class="food-content">
+                                        <div class="img-content">
+                                            <img src="./img/menu-food/stews/Chicken stew.jpg" id="food-pix" alt="Chicken stew" />
+                                            <span id="food-name">Chicken Stew</span>
+                                        </div>
+                                    </div>
+                                    <div class="food-content">
+                                        <div class="img-content">
+                                            <img src="./img/menu-food/rice/JollofRice.jpg" id="food-pix" alt="Jollof Rice" />
+                                            <span id="food-name">Jollof Rice</span>
+                                        </div>
+                                    </div>
+                                    <div class="food-content lastf">
+                                        <div class="img-content">
+                                            <img src="./img/menu-food/soups/Cat Fish Banga-soup.jpg" id="food-pix" alt="Cat Fish Banga soup" />
+                                            <span id="food-name">Banga soup</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="food-content">
+                                        <span id="jumbo-more"><a href="#"> Next &raquo;</a> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--about, rating and video section-->
+    <section id="about" style="padding: 50px 0 150px 0">
+        <div class="container-fluid h-50 py-5 px-2">
+            <div class="content_wrapper">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-9 section-wrapper">
+                        <h2 class="text-uppercase text-center mb-5" style="color: #5cb85c">
+                            About House of Chops
+                        </h2>
+                        <article>
+                            <p>
+                                House of Chops is an online catering company currently servicing Warri and it's environs and we have a vision of expanding our operation to every part of Nigeria in no time. It was born out of passion to provide, quality, affordable and mouth watering
+                                food to the good people of Warri and beyond. We are specialists in Continental, African Dishes and everything in between.
+                            </p>
+                            <p>
+                                Our operation is very simple, you place your order and we deliver to you within 3hrs. We have <i>fresh Banga, Egusi, Oha,
+                Owho Soup. Fresh fish Stew, Chicken Stew, Offada Stew, Jellof
+                rice, fried rice, Isi Ewu, Nkwobi</i> and many many other kinds of food
+                            </p>
+                            <p>
+                                Our food come in 3 and 4litres pack and we also have outdoor catering services available for your birthday parties, wedding parties etc. We promise to give you a taste of mama's bottom pot. Kindly place your order with any of our channels
+                            </p>
+                            <p>
+                                Our operation is very simple, you place your order and we deliver to you within 3hrs. We have fresh Banga, Egusi, Oha, Owho Soup. Fresh fish Stew, Chicken Stew, Offada Stew, Jellof rice, fried rice, Isi Ewu, Nkwobi and many many other kinds of food
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 p-2 section-wrapper asw-wrapper">
+                        <h3 class="text-center mb-5 text-uppercase" style="font-family: 'Viaoda Libre', cursive; font-size: 1.6em; color:#5cb85c">Our Rating</h3>
+                        <div class="landscape">
+                            <div id="progress-container" class="px-4 progress-bar-content">
+                                <div class="prog-percentage-container">
+                                    <h6 class="d-block font-weight-bold" style="color: grey;">Quick Delivery</h6>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated animate-percentage" id="fourty" style="background: grey; color: #5cb85c;">
+                                            40%
+                                        </div>
+                                    </div>
+                                    <p class="d-block mb-3">
+                                        Reviewed by <span class="counter font-weight-bold" style="color: #5cb85c;">400 </span> customers
+                                    </p>
+                                </div>
+                                <div class="prog-percentage-container">
+                                    <h6 class="d-block font-weight-bold" style="color: grey;">Quality Services</h6>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated font-weight-bolder" id="sixty" style="background: grey;  color: #5cb85c;">
+                                            60%
+                                        </div>
+                                    </div>
+                                    <p class="d-block mb-3">
+                                        Reviewed by <span class="counter font-weight-bold" style="color: #5cb85c;">800 </span> customers
+                                    </p>
+                                </div>
+                                <div class="prog-percentage-container">
+                                    <h6 class="d-block font-weight-bold" style="color: grey;">Efficiency</h6>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" id="eighty" style="background: grey;  color: #5cb85c;">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <p class="d-block mb-5">
+                                        Reviewed by <span class="counter font-weight-bold" style="color: #5cb85c;">1200 </span> customers
+                                    </p>
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function() {
+                                    $("#fourty").animate({
+                                        width: "40%"
+                                    }, 1500);
+                                    $("#sixty").animate({
+                                        width: "60%"
+                                    }, 2500);
+                                    $("#eighty").animate({
+                                        width: "80%"
+                                    }, 3500);
+                                });
+                            </script>
+                            <div class="media-video px-4">
+                                <video width="100%" height="auto" controls>
+              <source src="./video/VID-20200706-WA0009.mp4" type="video/mp4" class="shadow-lg" />
+              <p>video tag not supported by your browser</p>
+            </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--OUR SERVICES-->
+    <section id="services" style="padding: 50px 0 100px 0; background-color: #f2f2f2">
+        <div class="container-fluid h-50 py-5 px-2">
+            <div class="content_wrapper section-wrapper">
+                <h2 class="text-uppercase text-center mb-5" style="color: #5cb85c;">
+                    OUR SERVICES
+                </h2>
+                <p class="text-sm-left text-md-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, natus! Dicta rem tempora unde odio itaque commodi vitae quisquam consectetur iusto alias. Molestiae accusantium tempora consequuntur, ipsa laboriosam possimus cumque.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-sm-12 col-lg-4 service-box">
+                        <div data-aos="fade-right" data-aos-duration="1000" class="servicecard m-md-4 p-3" style="background-color: #5cb85c">
+                            <div style="text-align: center">
+                                <h1 class="d-inline text-center " style="color: #f2f2f2;">
+                                    <i class="fas fa-truck text-center"></i>
+                                    <i class="fas fa-long-arrow-alt-right  text-center"></i>
+                                    <i class="fas fa-home  text-center"></i>
+                                </h1>
+                            </div>
+                            <h4 class="mt-4 text-center" style="color: #f2f2f2;">
+                                Home Delivery Pack
+                            </h4>
+                            <div class="card-body">
+                                <p class="body-text text-center" style="color: #f2f2f2;">
+                                    Our home delivery services is quite simple, you place your order and we deliver to your house. Our prices are pocket friendly and our operations are designed to provide you conform.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 service-box">
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1300" class="servicecard m-md-4 p-3" style="background-color: #f2f2f2">
+                            <div style="text-align: center">
+                                <h1 class="d-inline text-center">
+                                    <i class="fas fa-gift" style="color: #5cb85c;"></i>
+                                </h1>
+                            </div>
+                            <h4 class="mt-4 text-center" style="color: #5cb85c;">
+                                Surprise Packages
+                            </h4>
+                            <div class="card-body">
+                                <p class="body-text text-center">
+                                    You don’t need to be in town to enjoy our services. You can surprise your loved ones with our services too. You place your order and we deliver to your preferred location at your preferred time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 service-box">
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1300" class="servicecard m-md-4 p-3">
+                            <div style="text-align: center">
+                                <h1 class="d-inline text-center">
+                                    <i class="fas fa-door-open" style="color: #5cb85c;"></i>
+                                </h1>
+                            </div>
+                            <h4 class="mt-4 text-center" style="color: #5cb85c;">
+                                Outdoor Catering Services
+                            </h4>
+                            <div class="card-body">
+                                <p class="body-text text-center">
+                                    We cater for any kind of event in any part of Nigeria. Even with the bulk demand, we take deliberate steps to ensure that you enjoy Mama’s Bottom Pot Taste.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Testimonies-->
+    <section id="testimony">
+        <div class="container-fluid" style="padding: 100px 0 100px 0;">
+            <div class="content_wrapper">
+                <h2 style="color: orange;" class="text-center">PHOTO GALLERY</h2>
+                <p class="text-sm-left text-md-center initial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, culpa, voluptate nesciunt vitae fugiat quam placeat, est veritatis obcaecati ipsum illum cum ex ratione corporis vero numquam natus non praesentium.
+                </p>
+                <div class="photo-gallery-wrapper">
+                    <div class="row my-5 text-center gallery-landscape-flex">
+                        <!--first photo-->
+                        <div data-aos="fade-up" data-aos-duration="500" class="col-sm-12 col-md-6 col-lg-3 pb-wrapper">
+                            <div class="photo-box bg-1">
+
+                            </div>
+                            <h3> Tasty Meals</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem .</p>
+                        </div>
+                        <!--second photo-->
+                        <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="800" class="col-sm-12 col-md-6 col-lg-3 pb-wrapper">
+                            <div class="photo-box bg-2">
+
+                            </div>
+                            <h3> Happy Home</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem .</p>
+                        </div>
+                        <!--thrid photo-->
+                        <div data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000" class="col-sm-12 col-md-6 col-lg-3 pb-wrapper tab-pb-wrapper">
+                            <div class="photo-box bg-3">
+
+                            </div>
+                            <h3> Special Delicacy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem </p>
+                        </div>
+                        <!--fourt photo-->
+                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1200" class="col-sm-12 col-md-6 col-lg-3 pb-wrapper tab-pb-wrapper">
+                            <div class="photo-box bg-4">
+
+                            </div>
+                            <h3> Enjoyable Meals</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FOOD MENU SECTION-->
+    <section id="foodmenu" style="padding: 50px 0 100px 0; background-color: #f2f2f2">
+        <div class="container-fluid h-50 py-5 px-2">
+            <div class="content_wrapper">
+                <h2 class="text-center" style="color: #5cb85c;
+                ">AVAILABLE CHOPS</h2>
+                <p class="initial-text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, et dicta. Error, fugiat atque a omnis, nisi, optio facilis quod voluptatum laudantium vitae dolores odit quam sit ut laborum cum.</p>
+                <div class="row my-5">
+                    <div class="col-sm-12 col-lg-3 px-4 pt-0">
+                        <h3 class="text-center" style="color: #5cb85c; margin-bottom: 10px;  font-size: 1.4rem; letter-spacing: 0.4em;
+                        ">OUR MENU</h3>
+                        <h5 class="text-center " style="color: rgb(94, 93, 93); margin-top: 0;
+                       ">3hrs Delivery Time</h5>
+                        <P class="text-left font-weight-bold" style="color: #5cb85c;">Pay on Delivery</P>
+                        <p class="text-justify">Our meals are carefully prepared to meet your personal need. We make conscious effort to ensure that you derive satisfaction while enjoying our delicacy. Every bit of our food is specifically and artistically prepared to ensure
+                            that you have a real taste of Mama’s Bottom Pot. </p>
+                    </div>
+                    <div class="col-sm-12 col-lg-9 main-food-wrapper-container" ng-app="myApp" ng-controller="foodCtrl">
+                        <ul class="nav nav-tabs w-100" style="border-bottom: 3px solid  #5cb85c">
+                            <li class="text-center mr-0 p-1 ist_link bg_link" ng-click="rcFunct()"><a id="Rice" class="text-center ist_txt_link" style="color: white">Rice</a></li>
+                            <li class="text-center mr-0 p-1 secd_link" ng-click="swFunct()"><a id="Stew" class="text-center secd_txt_link" style="border-bottom: none;">Stew</a></li>
+                            <li class="text-center mr-0 p-1 third_link" ng-click="spFunct()"><a id="Soup" class="text-center third_txt_link" style="border-bottom: none;">Soup</a></li>
+                            <li class="text-center mr-0 p-1 fourt_link" ng-click="grlFunct()"><a id="Grill" class="text-center fourt_txt_link" style="border-bottom: none;">Grill</a></li>
+                        </ul>
+
+
+
+                        <div class="card-container" style="background-color: rgb(235, 232, 232); padding: 30px 20px; width: 100%; height: 600px; overflow-y: auto;">
+                            <div class="food-table food-container">
+
+                                <!--RICE SECTION-->
+
+                                <!--table cells container-rice-->
+                                <div ng-show="Rice">
+                                    <div class="flex-box-container">
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/rice/Fried rice.jpg" alt="Fried rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Fried Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+                                                <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                    <span id="naira" style="text-decoration:line-through;">N</span> 9,500
+                                                </p>
+                                                <p style="color: grey;">Per 1/2 Basket</p>
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                    </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                    class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                        <!--tables cell for one ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/rice/JollofRice.jpg" alt="Jollof rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Jollof Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+                                                <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                    <span id="naira" style="text-decoration:line-through;">N</span> 9,000
+                                                </p>
+                                                <p style="color: grey;">Per 1/2 Basket</p>
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                    class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                        <!--tables cell for two ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/rice/coconutrice.jpg" alt="Coconut rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Coconut Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Fish)</p>
+                                            </div>
+                                            <div class="content">
+                                                <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                    <span id="naira" style="text-decoration:line-through;">N</span> 8,000
+                                                </p>
+                                                <p style="color: grey;">Per 1/2 Basket</p>
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for three ends-->
+                                        <!--row 2-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/rice/banga rice.jpg" alt="Banga rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Banga Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Fish)</p>
+                                            </div>
+                                            <div class="content">
+                                                <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                    <span id="naira" style="text-decoration:line-through;">N</span> 8,000
+                                                </p>
+                                                <p style="color: grey;">Per 1/2 Basket</p>
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                     class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--STEW SECTION-->
+
+                                <!--table cells container-stew-->
+                                <div ng-show="Stew">
+                                    <div class="flex-box-container">
+                                        <div class="card border border-0 shadow-lg ">
+                                            <img src="./img/menu-food/stews/Chicken stew.jpg" alt="Chicken Stew" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Chicken Stew</h6>
+                                            </div>
+                                            <div class="content">
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                    <option value="1" selected>1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for one ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/stews/maxresdefault.jpg" alt="Fish Stew" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Fish Stew</h6>
+                                                <p style="color: grey; font-weight: bold"></p>
+                                            </div>
+                                            <div class="content">
+
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                    <option value="1" selected>1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                     class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for two ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/stews/l174008154.jpg" alt="Beef Stew" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Beef Stew</h6>
+                                                <p style="color: grey; font-weight: bold"></p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                    <option value="1" selected>1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                    class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                        <!--tables cell for three ends-->
+
+                                        <!--row 2-->
+
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/stews/Peppered-Meat.jpg" alt="Goat Meat Stew" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Goat Meat Stew</h6>
+                                                <p style="color: grey; font-weight: bold"></p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                    <option value="1" selected>1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                  class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--SOUP SECTION-->
+
+                                <!--table cells container-stew-->
+                                <div ng-show="Soup">
+                                    <div class="flex-box-container">
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/soups/Cat Fish Banga-soup.jpg" alt="Cat Fish Banga Soup" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold"> Banga Soup </h6>
+                                                <p style="color: grey; font-weight: bold">(Cat Fish)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,000
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,000
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                     class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for one ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/soups/Igusi Soup.jpg" alt="Igusi Soup" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Igusi Soup</h6>
+                                                <p style="color: grey; font-weight: bold">(Beef)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,000
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,000
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for two ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/soups/Ogborno.jpg" alt="Ogbono rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Ogbono Soup</h6>
+                                                <p style="color: grey; font-weight: bold">(Dried Fish/Beef)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,000
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                        <!--tables cell for three ends-->
+                                        <!--row 2-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/soups/vegetable-soup-1-5.jpg" alt="Vegetable Soup" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Vegetable Soup</h6>
+                                                <p style="color: grey; font-weight: bold">(Assorted Meat)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                        class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="card border border-0 shadow-lg ">
+                                            <img src="./img/menu-food/soups/Owo.jpg" alt="Owo Soup" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Owo Soup</h6>
+                                                <p style="color: grey; font-weight: bold">(Cow Head)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 8,500
+                                                        </p>
+                                                        <p style="color: grey;">4 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                 class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--GRILL SECTION-->
+
+                                <!--table cells container-Grill-->
+                                <div ng-show="Grill">
+                                    <div class="flex-box-container">
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/grills/grillone.jpg" alt="Grill one" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Fried shese</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for one ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/grills/grillthree.jpg" alt="Fried rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Jollof Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                 class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+
+                                        <!--tables cell for two ends-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/grills/grillthree.jpg" alt="Fried rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">GIZZARD Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color:  #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                 class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                        <!--tables cell for three ends-->
+                                        <!--row 2-->
+                                        <div class="card border border-0 shadow-lg">
+                                            <img src="./img/menu-food/grills/grillfour.jpg" alt="Fried rice" style="width: 100%; height: 200px; position: relative;">
+                                            <div id="share-favLink">
+                                                <i class="fas fa-share-alt"></i>
+                                                <div id="shareIcon">
+                                                    <ul id="food-share">
+                                                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                            </div>
+                                            <div class="card-header-text text-center">
+                                                <h6 class="text-dark font-weight-bold">Grill Rice</h6>
+                                                <p style="color: grey; font-weight: bold">(Full Chicken)</p>
+                                            </div>
+                                            <div class="content">
+
+                                                <div class="otr_flex">
+                                                    <div>
+                                                        <p class="font-weight-bold"><span style="color: red; font-weight: bold;" class="mb-1">Price:</span>
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-weight-bold">
+                                                            <span id="naira" style="text-decoration:line-through;">N</span> 6,500
+                                                        </p>
+                                                        <p style="color: grey;">3 Litres <input type="checkbox" name="3Litres" style="cursor: pointer;"></p>
+                                                    </div>
+                                                </div>
+
+                                                <button type="button" class="btn my-2" style="background-color: #e4e3e3;"> Qty :
+                                                    <select name="select" id="select">
+                                                        <option value="1" selected>1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </button>
+                                                <button type="button" class="card-btn add-to-cart mb-2 mt-3 w-100"> Add to Cart <i
+                                                class="fas fa-shopping-cart"></i></button>
+                                                <button type="button" class="card-btn buyNow w-100"> Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                //angular.js application. changes content of each tabs and remove the existing one
+                                var app = angular.module("myApp", []);
+                                app.controller("foodCtrl", function($scope) {
+                                    $scope.Rice = true;
+                                    $scope.rcFunct = function() {
+                                        $scope.Rice = true;
+                                        $scope.Stew = false;
+                                        $scope.Soup = false;
+                                        $scope.Grill = false;
+                                    }
+                                    $scope.Stew = false;
+                                    $scope.swFunct = function() {
+                                        $scope.Rice = false;
+                                        $scope.Stew = true;
+                                        $scope.Soup = false;
+                                    }
+                                    $scope.Soup = false;
+                                    $scope.spFunct = function() {
+                                        $scope.Rice = false;
+                                        $scope.Stew = false;
+                                        $scope.Soup = true;
+                                    }
+                                    $scope.Grill = false;
+                                    $scope.grlFunct = function() {
+                                        $scope.Rice = false;
+                                        $scope.Stew = false;
+                                        $scope.Soup = false;
+                                        $scope.Grill = true;
+                                    }
+                                });
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact us-->
+    <section id="contact-us" style="padding: 50px 0 100px 0">
+        <div class="container-fluid h-50 py-5 px-2">
+            <div class="content_wrapper">
+                <h2 style="color: orange" class="text-center">CONTACT US</h2>
+                <p class="text-center">
+                    Before filling the contact form below, ensure you have gone through our <a href="faq.html"> FAQ </a>section, as most of your questions must have already been answered.
+                </p>
+                <div class="col-sm-12">
+                    <div class="contact_info_container">
+                        <div class="row my-3 mt-5">
+                            <!--use a linear gradient for setting up this section-->
+                            <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="1500" class="orange_barkgrd shadow">
+                                <div class="contact-box-info py-4 pl-0">
+                                    <h2 class="mb-3 text-center" style="color: white;"><b> Contact Info</b>
+                                    </h2>
+                                    <div>
+                                        <ul class="flex-info  md-width">
+                                            <h3 class=" text-white mb-0 pb-1">Working Hours</h3>
+                                            <li><i class="far fa-fw  fa-clock"></i>
+                                                <p><b>24 hrs Mon - Friday</b></p>
+                                            </li>
+                                        </ul>
+                                        <ul class="flex-info">
+                                            <h3 class="text-white mb-0 pb-1">Leave a Message</h3>
+                                            <li><i class="fas  fa-fw fa-envelope"></i>
+                                                <email> support@houseofchops.com </email>
+                                            </li>
+                                        </ul>
+                                        <ul class="flex-info sm-width">
+                                            <h3 class="text-white mb-0 pb-1">Call Us</h3>
+                                            <li> <i class="fas  fa-fw  fa-phone-alt"></i>
+                                                <p><b> +078 5329 4056 <br> +078 5329 4056 </b></p>
+                                            </li>
+                                        </ul>
+                                        <ul class="flex-info  sm-width">
+                                            <h3 class="text-white mb-0 pb-1">Whatsapp Us </h3>
+                                            <li> <i class="fas  fa-fw  fa-sms"></i>
+                                                <p><b>+078 5329 4056</b></p>
+                                            </li>
+                                        </ul>
+                                        <ul class="flex-info">
+                                            <h3 class="text-white mb-0 pb-1">Our Location</h3>
+                                            <li> <i class="fas  fa-fw fa-map-marker"></i>
+                                                <address>567 York Road NOTTINGHAM <br> NG11 3FS, United Kindom</address>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" class="white_barkgrd">
+                                <form action="action_page.php" method="POST" class="p-3 shadow-lg">
+                                    <h2 class="mb-3 text-center " style="color: orange;">Get in touch with us</h2>
+                                    <div class="form-content-wrapper">
+                                        <div class="form-group">
+                                            <label for="firstname" style="font-size: 0.9em;">First Name:</label>
+                                            <input type="text" name="firstname" class="form-control" id="firstname" />
+                                        </div>
+                                        <div class="form-group" style="font-size: 0.9em;">
+                                            <label for="lastname">Last Name:</label>
+                                            <input type="text" name="lastname" class="form-control p-0" id="lastname" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="text" name="email" class="form-control p-0" id="email" />
+                                        </div>
+                                        <div class="form-group mb-0">
+                                            <label for="message ">Message:</label>
+                                        </div>
+                                        <textarea name="message" id="message" rows="3" class="w-100"></textarea>
+                                        <label for="checkbox form-check" style="font-size: 0.9em;">
+                    <input type="checkbox" class="form-check-label mt-2 text-warning" style="font-size: 0.9em;" /><span> Send a
+                    copy to my Email </span>
+                  </label>
+                                        <button type="button" class="btn w-75 mx-auto d-block mt-2 " style="background-color: orange; color: white; font-size: 0.9em; letter-spacing: 0.2em;">
+                    Send
+                  </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="content_wrapper">
+                <div class="row">
+                    <div class="col-sm-6 time-section">
+                        <h1 class="pt-2 mb-4"><span style="color: #5cb85c">House</span> <span style="color: orange">Of Chops</span></h1>
+                        <h6 class="mb-2">Opening Hours</h6>
+                        <p style="color:#5cb85c"> <i class="far fa-clock mr-sm-1 mr-md-1 mb-0 pt-0"></i> Monday - Fridays <span> <i
+                class="fas fa-truck mr-sm-1 mr-md-1 ml-sm-3 ml-md-4"></i> 24Hrs Delivery </span> <span> <i
+                class="fas fa-headphones-alt mr-sm-1 mr-md-1 ml-sm-3 ml-md-4"></i> 24/7 Online support </span> </p>
+                        <p class="ml-2 mt-2 emr" style="color: white">You can reach us on weekends, using any of our emergency lines on our contact section.</p>
+                    </div>
+                    <div class="col-sm-3 text-left hosftr">
+                        <h5 style="color:#5cb85c">QUICK LINKS</h5>
+                        <ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Pricelist</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 sy-connect">
+                        <h5 style="color:#5cb85c" class="text-left">STAY CONNECTED</h5>
+                        <ul class="text-left hosftr">
+                            <li><a href="#">Leave a message</a></li>
+                            <li><a href="#">find us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                        <ul id="socials-connect">
+                            <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 googleplay-playstore-brand text-sm-center text-md-right">
+                        <div>
+                            <a href="#">
+                                <img src="./img/googleplay & apple img/google.png" class="mr-4" alt="Apple Logo" style="width: 100px; height: auto;">
+                            </a>
+                            <a href="#">
+                                <img src="./img/googleplay & apple img/apple.jpg" alt="Apple Logo" style="width: 90px; height: auto; border: 1px solid white; border-radius: 4px;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-light copyright">
+                        <small>&copy;2018 - 2020. www.houseofchops.com. All rights reserved &#124; <span class="px-2"><a
+                href="#">Privacy</a></span> &#124; <span class="px-2"><a href="#">License</a></span> &#124; <span
+              class="px-2"><a href="#">FAQ</a></span>&#124;<p> <span class="px-2"> Designed by<a href="http://www.blackpopex.ezyro.com" target="_blank" style="color: #5cb85c; text-decoration: none;" > Blackpopex</a></span></p></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        jQuery(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 20,
+                time: 3000
+            });
+        });
+    </script>
+</body>
+
+</html>
